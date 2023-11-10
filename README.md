@@ -1,44 +1,46 @@
-SoukAuto
+# SoukAuto
 
-This is a school project for the Software Engineering course. The project is a car selling website called "SoukAuto" that allows users to post their cars for sale and browse the available listings. The website was built using HTML, CSS, JavaScript, and PHP.
+SoukAuto is a car selling website developed as a school project for the Software Engineering course. It allows users to post their cars for sale and browse the available listings. The website was built using HTML, CSS, JavaScript, and PHP.
 
-Getting Started
+## Getting Started
 
-To get started with the project, clone the repository using the following command:
+To get started with the project, follow these steps:
 
-git clone https://github.com/Abdou-root/SoukAuto.git
+1. Clone the repository using the following command:
+   ````
+   git clone https://github.com/Abdou-root/SoukAuto.git
+   ```
 
-Prerequisites :
+2. Prerequisites:
+   - Install XAMPP or a similar local server on your computer.
 
-To run the project, you will need to have XAMPP or a similar local server installed on your computer.
+3. Installing:
+   - Clone the repository to your local machine.
+   - Copy the "SoukAuto" folder to the "htdocs" folder in your XAMPP installation directory.
+   - Start the Apache and MySQL services in XAMPP.
+   - Import the "se_project.sql" file located in the "Database" folder into your MySQL server using phpMyAdmin or a similar tool.
 
-Installing :
+## Usage
 
-Install XAMPP or a similar local server.
-Clone the repository to your local machine.
-Copy the "SoukAuto" folder to the "htdocs" folder in your XAMPP installation directory.
-Start the Apache and MySQL services in XAMPP.
-Import the "se_project.sql" file located in the "Database" folder into your MySQL server using phpMyAdmin or a similar tool.
+To use the website, follow these steps:
 
-Usage :
+1. Open a web browser and go to the following URL:
+   ````
+   http://localhost/SoukAuto/index.php
+   ```
 
-To use the website, open a web browser and go to the following URL:
+2. This will take you to the homepage of the website where you can browse the available car listings.
+3. To post a car for sale, click on the "Sell" button and fill out the form.
+4. To view the details of a specific car listing, click on the title of the listing.
 
-http://localhost/SoukAuto/index.php
+## Authors
 
-This will take you to the homepage of the website where you can browse the available car listings.
-To post a car for sale, click on the "Sell" button and fill out the form.
-To view the details of a specific car listing, click on the title of the listing.
+- GRINE Abdessamed Bassel - Back-end and Front-end contributor
+- Kadri Mohammed Mouncef - WebDev Developer and Back-End developer
+- RAHMOUNI Rahil - Design and Front-end developer
+- CHARCHAR Imad Eddine - Front-end developer and Back-end developer
+- Yousfi Chaker - Design and Front-end developer
 
-Authors :
+## Acknowledgments
 
-GRINE Abdessamed Bassel - Back-end and Front-end contributor
-Kadri Mohammed Mouncef - WebDev Developer and Back-End developer
-RAHMOUNI Rahil - Design and Front-end developer
-CHARCHAR Imad Eddine - Front-end developer and Back-end developer
-Yousfi Chaker - Design and Front-end developer
-
-
-Acknowledgments :
-The project was completed as part of the Software Engineering course at The National School Of Artificial Intelligence.
-Special thanks to Mr.BOUCHRIKA and Mme.CHETTAH for providing guidance and support throughout the project.
+The project was completed as part of the Software Engineering course at The National School Of Artificial Intelligence. Special thanks to Mr.BOUCHRIKA and Mme.CHETTAH for providing guidance and support throughout the project.
